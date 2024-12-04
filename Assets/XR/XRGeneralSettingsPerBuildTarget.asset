@@ -1,6 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-4222234092956388310
+=======
+--- !u!114 &-5367971100872405084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Standalone Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -4941711302491253632}
+  m_InitManagerOnStart: 1
+--- !u!114 &-4941711302491253632
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,7 +33,12 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
+<<<<<<< Updated upstream
   m_Loaders: []
+=======
+  m_Loaders:
+  - {fileID: 11400000, guid: 7936c1dd98cc76c40b1ec2a89dd23ecc, type: 2}
+>>>>>>> Stashed changes
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,6 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Keys: 01000000
   Values:
+<<<<<<< Updated upstream
   - {fileID: 4867070497305771962}
 --- !u!114 &4867070497305771962
 MonoBehaviour:
@@ -45,3 +69,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -4222234092956388310}
   m_InitManagerOnStart: 1
+=======
+  - {fileID: -5367971100872405084}
+>>>>>>> Stashed changes
